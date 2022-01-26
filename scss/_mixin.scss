@@ -1,0 +1,44 @@
+// transition   =============;
+@mixin trans1($time) {
+    transition: all linear $time;
+    -webkit-transition: all linear $time;
+    -moz-transition: all linear $time;
+    -ms-transition: all linear $time;
+    -o-transition: all linear $time;
+}
+@mixin trans2($time) {
+    transition: all ease $time;
+    -webkit-transition: all ease $time;
+    -moz-transition: all ease $time;
+    -ms-transition: all ease $time;
+    -o-transition: all ease $time;
+}
+
+@mixin link-1{
+
+    .view-link{
+        font-family: $ff1;
+        font-weight: 400;
+        color: $c33;
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 71px;
+        width: 222px;
+        background: #fff;
+        padding-left: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        @include trans1(0.3s);
+
+        i{
+            padding-left: 18px;
+            
+        }
+
+        &:hover{
+            letter-spacing: 4px;
+            
+        }
+    }
+}

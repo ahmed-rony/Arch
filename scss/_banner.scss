@@ -1,0 +1,93 @@
+/* ==============   banner starts   ============== */
+#banner{
+    padding-top: 105px;
+    padding-bottom: 120px;
+
+    .banner-item{
+
+        .text-slider{
+            position: relative;
+
+            .banner-text{
+                padding-top: 333px;
+    
+                h1{
+                    font-family: $ff1;
+                    font-weight: 300;
+                    font-size: 64px;
+                    color: $cbd;
+    
+                    .name-1{
+                        font-weight: 700;
+                        color: $c33;
+                    }
+                }
+            }
+            .left-arrow{
+                color: $c33;
+                width: 53px;
+                line-height: 53px;
+                text-align: center;
+                border: 1px solid $cf2;
+                position: absolute;
+                top: 551px;
+                left: 0;
+                @include trans1(0.3s);
+
+                &:hover{
+                    background: $cf2;
+                }
+            }
+            .right-arrow{
+                color: $c33;
+                width: 53px;
+                line-height: 53px;
+                text-align: center;
+                border: 1px solid $cf2;
+                position: absolute;
+                top: 551px;
+                left: 75px;
+                @include trans1(0.3s);
+
+                &:hover{
+                    background: $cf2;
+                }
+            }
+        }
+        .serial-item{
+            padding-top: 170px;
+            display: flex;
+            font-family: $ff1;
+            font-weight: 400;
+            font-size: 24px;
+            color: $cbd;
+            p{
+                line-height: 24px;
+            }
+            .slash{
+                font-size: 45px;
+                margin-top: -15px;
+                padding: 0 30px;
+                color: #E0E0E0;
+                transform: rotate(30deg);
+                -webkit-transform: rotate(30deg);
+                -moz-transform: rotate(30deg);
+                -ms-transform: rotate(30deg);
+                -o-transform: rotate(30deg);
+}
+        }
+
+        .img-slider{
+
+            .banner-img{
+                position: relative;
+
+                a{
+                    @include link-1;
+                    
+                }
+            }
+        }
+    }
+}
+/* ==============   banner   ends   ============== */

@@ -1,0 +1,58 @@
+/* ==============   about starts   ============== */
+#about{
+    padding-bottom: 150px;
+    .about-bg{
+        background: #FBFBFB;
+        height: 435px;
+
+        .about-content-img{
+            padding-left: 100px;
+            padding-top: 30px;
+            position: relative;
+
+            .about-img{
+                
+                .img-2{
+                    position: absolute;
+                    top: 60px;
+                    right: -30px;
+                }
+                .img-3{
+                    padding-top: 30px;
+                }
+            }
+
+
+        }
+
+        .about-text{
+            padding-top: 30px;
+            position: relative;
+            padding-left: 35px;
+            h3{
+                font-family: $ff1;
+                color: $cbd;
+                font-size: 64px;
+                font-weight: 300;
+                padding-bottom: 15px;
+
+            }
+            p{
+                font-family: $ff1;
+                color: #000;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 25px;
+                padding-right: 25px;
+            }
+            a{
+                @include link-1;
+                .view-link{
+                    bottom: -100px;
+                    left: 35px;
+                }
+            }
+        }
+    }
+}
+/* ==============   about   ends   ============== */

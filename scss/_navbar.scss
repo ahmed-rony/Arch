@@ -1,0 +1,67 @@
+/* ==============   navbar starts   ============== */
+
+.navbar{
+    position: absolute;
+    // background: #cae25d;
+    top: 0px;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+
+    .menu-1{
+        
+        
+
+        .navbar-nav{
+            margin-right: 138px;
+
+            .nav-item{
+                margin-left: 46px;
+                
+                &:first-of-type{
+                    margin-left: 0;
+                }
+                
+                .nav-link{
+                    color: $c33;
+                    font-family: $ff1;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    position: relative;
+                    
+                    &::before{
+                        content: '';
+                        width: 0;
+                        height: 1px;
+                        background: $c33;
+                        position: absolute;
+                        left: -25%;
+                        top: -3px;
+                        @include trans2(0.4s);
+                    }
+                    &::after{
+                        content: '';
+                        width: 0;
+                        height: 1px;
+                        background: $c33;
+                        position: absolute;
+                        right: -25%;
+                        bottom: -3px;
+                        @include trans2(0.4s);
+                    }
+                }
+                &:hover{
+                    .nav-link{
+                        &::before{
+                            width: 150%;
+                        }
+                        &::after{
+                            width: 150%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==============   navbar   ends   ============== */  
