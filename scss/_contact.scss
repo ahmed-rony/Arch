@@ -1,0 +1,73 @@
+/* ==============   contact starts   ============== */
+#contact{
+    padding-bottom: 268px;
+    header{
+        @include header-1;
+    }
+    
+    .contact-content{
+        position: relative;
+
+        
+        .form-1{
+            form{
+                input{
+                    line-height: 42px;
+                    width: 391px;
+                    padding-left: 21px;
+                    background: #f3f3f3;
+                    border: none;
+                    margin-bottom: 10px;
+                    
+                    &::placeholder{
+                        font-family: $ff1;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $cbd;
+                        
+                    }
+                }
+                .text-area{
+                    max-width: 391px;
+                    max-height: 147px;
+                    height: 147px;
+                    padding-left: 21px;
+                    padding-top: 10px;
+                    background: #f3f3f3;
+                    border: none;
+                    
+                    
+                    &::placeholder{
+                        font-family: $ff1;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: $cbd;
+                    }
+                }
+                .button-1{
+                    button{
+                        position: absolute;
+                        left: 0;
+                        bottom: -140px;
+                        border: none;
+
+                        // margin-top: 20px;
+                        @include link-1;
+                        .view-link{
+                            // bottom: -100px;
+                            background: $c33;
+                            color: #fff;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .contact-img{
+            img{
+                margin-left: 30px;
+            }
+        }
+    }
+}
+/* ==============   contact   ends   ============== */

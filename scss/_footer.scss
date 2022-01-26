@@ -1,0 +1,83 @@
+/* ==============   footer starts   ============== */
+footer{
+    background: #2C2C2C;
+    padding-top: 58px;
+
+    .item-1{
+        ul{
+            li{
+                a{
+                    @include trans2(0.4s);
+                    &:hover{
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-item{
+        padding-bottom: 60px;
+        h5{
+            color: #fff;
+            font-family: $ff1;
+            font-size: 16px;
+            font-weight: 700;
+            padding-bottom: 9px;
+        }
+        ul{
+            li{
+                margin-top: 6px;
+                
+                a{
+                    color: #fff;
+                    font-family: $ff1;
+                    font-weight: 500;
+                    font-size: 14px;
+                    position: relative;
+                    
+                    .pos-1{
+                        position: absolute;
+                        top: 3px;
+                        left: 0;
+                        font-size: 14px;
+                    }
+                    .pos-2{
+                        font-size: 18px;
+                        @include trans1(0.3s);
+                        &:hover{
+                            color: $cbd;
+                        }
+                        
+                    }
+                    .info-1{
+                        margin-left: 25px;
+                    }
+                }
+            }
+            .li-2{
+                margin-top: 32px;
+                margin-bottom: 23px;
+            }
+        }
+        .ul-pos-2{
+            li{
+                margin-right: 35px;
+                &:last-of-type{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .footer-end{
+        text-align: center;
+        p{
+            font-family: $ff2;
+            color: #C8C8C8;
+            font-size: 12px;
+            line-height: 69px;
+            border-top: 2px solid $c33;
+        }
+    }
+}
+/* ==============   footer   ends   ============== */

@@ -29,11 +29,10 @@
             padding-top: 30px;
             position: relative;
             padding-left: 35px;
+
+
+            @include header-1;
             h3{
-                font-family: $ff1;
-                color: $cbd;
-                font-size: 64px;
-                font-weight: 300;
                 padding-bottom: 15px;
 
             }
