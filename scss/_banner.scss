@@ -11,17 +11,7 @@
             .banner-text{
                 padding-top: 333px;
     
-                h1{
-                    font-family: $ff1;
-                    font-weight: 300;
-                    font-size: 64px;
-                    color: $cbd;
-    
-                    .name-1{
-                        font-weight: 700;
-                        color: $c33;
-                    }
-                }
+                @include main-header;
             }
             .left-arrow{
                 color: $c33;

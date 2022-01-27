@@ -1,0 +1,29 @@
+/* ==============   gallery starts   ============== */
+#gallery{
+    padding-top: 165px;
+    padding-bottom: 233px;
+    header{
+        padding-bottom: 30px;
+        border-bottom: 1px solid $cf2;
+        
+        @include main-header;
+        
+    }
+    .gallery-slider{
+        @include slider-arrows;
+
+        .left-arrow{
+            top: inherit;
+            bottom: -113px;
+        }
+        .right-arrow{
+            top: inherit;
+            bottom: -113px;
+        }
+
+        .gallery-content-1{
+            margin-top: 30px;
+        }
+    }
+}
+/* ==============   gallery   ends   ============== */

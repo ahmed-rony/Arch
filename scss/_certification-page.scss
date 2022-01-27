@@ -1,0 +1,14 @@
+/* ==============   certification starts   ============== */
+#certification{
+    padding-top: 165px;
+    padding-bottom: 233px;
+
+    header{
+        padding-bottom: 30px;
+        // border-bottom: 1px solid $cf2;
+        
+        @include main-header;
+        
+    }
+}
+/* ==============   certification   ends   ============== */

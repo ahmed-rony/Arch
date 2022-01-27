@@ -1,3 +1,5 @@
+// index page  =============;
+
 @import 'common';
 @import 'variable';
 @import 'mixin';
@@ -8,3 +10,22 @@
 @import 'project';
 @import 'contact';
 @import 'footer';
+
+// gallery page  =============;
+
+@import 'gallery-page';
+
+// project page  =============;
+
+@import 'project-page';
+
+// sample project 1 page  ================;
+@import 'sample-project-1';
+
+// cerification page  =============;
+
+@import 'certification-page';
+
+// contact page  =============;
+
+@import 'contact-page';

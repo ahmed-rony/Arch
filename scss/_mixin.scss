@@ -55,3 +55,53 @@
 
     }
 }
+
+@mixin main-header {
+    
+    h1{
+        font-family: $ff1;
+        font-weight: 300;
+        font-size: 64px;
+        color: $cbd;
+        line-height: 64px;
+
+        .name-1{
+            font-weight: 700;
+            color: $c33;
+        }
+    }
+}
+
+@mixin slider-arrows{
+
+    .left-arrow{
+        color: $c33;
+        width: 53px;
+        line-height: 53px;
+        text-align: center;
+        border: 1px solid $cf2;
+        position: absolute;
+        top: 551px;
+        left: 0;
+        @include trans1(0.3s);
+
+        &:hover{
+            background: $cf2;
+        }
+    }
+    .right-arrow{
+        color: $c33;
+        width: 53px;
+        line-height: 53px;
+        text-align: center;
+        border: 1px solid $cf2;
+        position: absolute;
+        top: 551px;
+        left: 75px;
+        @include trans1(0.3s);
+
+        &:hover{
+            background: $cf2;
+        }
+    }
+}

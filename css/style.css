@@ -103,6 +103,7 @@ img {
   font-weight: 300;
   font-size: 64px;
   color: #BDBDBD;
+  line-height: 64px;
 }
 
 #banner .banner-item .text-slider .banner-text h1 .name-1 {
@@ -626,6 +627,10 @@ footer {
   padding-top: 58px;
 }
 
+footer .item-1-pos {
+  padding-left: 50px;
+}
+
 footer .item-1 ul li a {
   transition: all ease 0.4s;
   -webkit-transition: all ease 0.4s;
@@ -651,7 +656,7 @@ footer .footer-item h5 {
 }
 
 footer .footer-item ul li {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 footer .footer-item ul li a {
@@ -688,7 +693,7 @@ footer .footer-item ul li a .info-1 {
 
 footer .footer-item ul .li-2 {
   margin-top: 32px;
-  margin-bottom: 23px;
+  margin-bottom: 38px;
 }
 
 footer .footer-item .ul-pos-2 li {
@@ -712,4 +717,411 @@ footer .footer-end p {
 }
 
 /* ==============   footer   ends   ============== */
+/* ==============   gallery starts   ============== */
+#gallery {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#gallery header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+#gallery header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#gallery header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#gallery .gallery-slider .left-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#gallery .gallery-slider .left-arrow:hover {
+  background: #F2F2F2;
+}
+
+#gallery .gallery-slider .right-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 75px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#gallery .gallery-slider .right-arrow:hover {
+  background: #F2F2F2;
+}
+
+#gallery .gallery-slider .left-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#gallery .gallery-slider .right-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#gallery .gallery-slider .gallery-content-1 {
+  margin-top: 30px;
+}
+
+/* ==============   gallery   ends   ============== */
+/* ==============   project starts   ============== */
+#project-2 {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#project-2 header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+}
+
+#project-2 header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#project-2 header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#project-2 .project-slider .left-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .left-arrow:hover {
+  background: #F2F2F2;
+}
+
+#project-2 .project-slider .right-arrow {
+  color: #333333;
+  width: 53px;
+  line-height: 53px;
+  text-align: center;
+  border: 1px solid #F2F2F2;
+  position: absolute;
+  top: 551px;
+  left: 75px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .right-arrow:hover {
+  background: #F2F2F2;
+}
+
+#project-2 .project-slider .left-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#project-2 .project-slider .right-arrow {
+  top: inherit;
+  bottom: -113px;
+}
+
+#project-2 .project-slider .gallery-content-1 {
+  margin-top: 30px;
+}
+
+#project-2 .project-slider .project-item {
+  margin-top: 60px;
+}
+
+#project-2 .project-slider .project-item:first-of-type {
+  margin-top: 30px;
+}
+
+#project-2 .project-slider .project-item .project-text {
+  position: relative;
+}
+
+#project-2 .project-slider .project-item .project-text h3 {
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+#project-2 .project-slider .project-item .project-text h3 {
+  font-size: 40px;
+  padding-bottom: 68px;
+}
+
+#project-2 .project-slider .project-item .project-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  line-height: 25px;
+  padding-right: 60px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link i {
+  padding-left: 18px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#project-2 .project-slider .project-item .project-text a .view-link {
+  bottom: -135px;
+  padding-left: 42px;
+}
+
+/* ==============   project   ends   ============== */
+/* ==============   sample project starts   ============== */
+#sample-project {
+  padding-top: 165px;
+  padding-bottom: 120px;
+}
+
+#sample-project header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #F2F2F2;
+  margin-bottom: 30px;
+}
+
+#sample-project header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#sample-project header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#sample-project .project-img2 {
+  padding-top: 30px;
+}
+
+#sample-project .project-text {
+  padding-top: 30px;
+  margin-left: -32px;
+}
+
+#sample-project .project-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+}
+
+#sample-project .project-img3 {
+  padding-top: 30px;
+}
+
+/* ==============   sample project   ends   ============== */
+/* ==============   certification starts   ============== */
+#certification {
+  padding-top: 165px;
+  padding-bottom: 233px;
+}
+
+#certification header {
+  padding-bottom: 30px;
+}
+
+#certification header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#certification header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+/* ==============   certification   ends   ============== */
+/* ==============   certification starts   ============== */
+#contact-2 {
+  padding-bottom: 120px;
+}
+
+#contact-2 header {
+  padding-top: 165px;
+  padding-bottom: 34px;
+}
+
+#contact-2 header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 64px;
+  color: #BDBDBD;
+  line-height: 64px;
+}
+
+#contact-2 header h1 .name-1 {
+  font-weight: 700;
+  color: #333333;
+}
+
+#contact-2 .contact-text {
+  position: relative;
+}
+
+#contact-2 .contact-text .address h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .address p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .phone-num {
+  margin-top: 44px;
+  margin-bottom: 43px;
+}
+
+#contact-2 .contact-text .phone-num h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .email p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #333333;
+}
+
+#contact-2 .contact-text .contact-us .view-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 71px;
+  width: 222px;
+  background: #fff;
+  padding-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+#contact-2 .contact-text .contact-us .view-link i {
+  padding-left: 18px;
+}
+
+#contact-2 .contact-text .contact-us .view-link:hover {
+  letter-spacing: 4px;
+}
+
+#contact-2 .contact-text .contact-us .view-link {
+  bottom: -104px;
+  color: #fff;
+  background: #333333;
+  padding-left: 0;
+  text-align: center;
+}
+
+#contact-2 .contact-text .contact-us .view-link:hover {
+  letter-spacing: 2px;
+  background: #BDBDBD;
+  color: #333333;
+}
+
+#contact-2 .contact-map {
+  padding-top: 105px;
+}
+
+#contact-2 .contact-map .map-1 {
+  width: 100%;
+  height: 500px;
+}
+
+/* ==============   certification   ends   ============== */
 /*# sourceMappingURL=style.css.map */

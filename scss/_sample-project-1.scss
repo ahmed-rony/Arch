@@ -1,0 +1,33 @@
+/* ==============   sample project starts   ============== */
+#sample-project{
+    padding-top: 165px;
+    padding-bottom: 120px;
+    header{
+        padding-bottom: 30px;
+        border-bottom: 1px solid $cf2;
+        margin-bottom: 30px;
+        
+        @include main-header;
+    }
+    .project-img2{
+        padding-top: 30px;
+        
+    }
+    .project-text{
+        padding-top: 30px;
+        margin-left: -32px;
+        p{
+            font-family: $ff1;
+            font-weight: 300;
+            font-size: 16px;
+            color: #000;
+            line-height: 24px;
+        }
+    }
+    .project-img3{
+        padding-top: 30px;
+        
+    }
+
+}
+/* ==============   sample project   ends   ============== */
